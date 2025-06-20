@@ -323,6 +323,13 @@ Running some operations on CPU instead of GPU.
 Disabling performance-heavy options like high-res fix or multiple models.
 
 Reducing how much GPU memory is allocated at once.
+# LoRA (Low-Rank Adaptation)
+
+Use LoRA to fine-tune models with specific styles
+
+Place LoRA files in the models/loras/ directory or subfolders. The loader will detect them automatically.
+
+You nodes like Load LoRA, Apply LoRA, or Apply LoRA Stack to use it.
 
 # Notes
 
